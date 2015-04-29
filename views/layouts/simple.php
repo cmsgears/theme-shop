@@ -1,5 +1,5 @@
 <?php
-use themes\blog\assets\AssetLoaderPublic;
+use themes\cart\assets\AssetLoaderPublic;
 
 AssetLoaderPublic::register( $this );
 

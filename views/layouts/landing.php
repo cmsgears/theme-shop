@@ -1,5 +1,5 @@
 <?php
-use themes\blog\assets\AssetLoaderLanding;
+use themes\cart\assets\AssetLoaderLanding;
 
 AssetLoaderLanding::register( $this );
 

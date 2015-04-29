@@ -1,5 +1,5 @@
 <?php
-namespace themes\blog\assets;
+namespace themes\cart\assets;
 
 // Yii Imports
 use \Yii;
