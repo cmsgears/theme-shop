@@ -1,7 +1,7 @@
 <?php
-use themes\cart\assets\AssetLoaderPrivate;
+use themes\cart\assets\PrivateAssetBundle;
 
-AssetLoaderPrivate::register( $this );
+PrivateAssetBundle::register( $this );
 
 $coreProperties = $this->context->getCoreProperties();
 ?>

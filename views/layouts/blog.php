@@ -1,7 +1,7 @@
 <?php
-use themes\cart\assets\AssetLoaderPublic;
+use themes\cart\assets\PublicAssetBundle;
 
-AssetLoaderPublic::register( $this );
+PublicAssetBundle::register( $this );
 
 $coreProperties = $this->context->getCoreProperties();
 ?>
