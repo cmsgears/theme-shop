@@ -1,12 +1,12 @@
 <?php
-namespace themes\blog\assets;
+namespace themes\cart\assets;
 
 // Yii Imports
 use \Yii;
 use yii\web\AssetBundle;
 use yii\web\View;
 
-class AssetLoaderLanding extends AssetBundle {
+class PrivateAssetBundle extends AssetBundle {
 
 	// Constructor and Initialisation ------------------------------
 
@@ -20,7 +20,7 @@ class AssetLoaderLanding extends AssetBundle {
 
 		// Load CSS
 	    $this->css     = [
-			"styles/landing.css"
+			"styles/private.css"
 	    ];
 
 		// Load Javascript
@@ -28,8 +28,8 @@ class AssetLoaderLanding extends AssetBundle {
             "scripts/vendor/conditionizr-4.4.0.min.js",
             "conditionizr/detects/ie6-ie7-ie8-ie9.js",
             "scripts/vendor/imagesloaded.pkgd-3.1.8.min.js",
+            "scripts/cmgtools/cmg-browser-features.js",
             "scripts/cmgtools/cmg-ajax-processor.js",
-            "scripts/cmgtools/cmg-modules.js",
             "scripts/cmgtools/cmg-utilities.js",
             "scripts/main.js",
             "scripts/ajax-processor.js"
