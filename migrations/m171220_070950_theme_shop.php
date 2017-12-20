@@ -12,7 +12,7 @@ use cmsgears\cms\common\models\entities\Page;
 
 use cmsgears\core\common\utilities\DateUtil;
 
-class m160623_072812_theme_shop extends \yii\db\Migration {
+class m171220_070950_theme_shop extends \yii\db\Migration {
 
 	// Public variables
 
